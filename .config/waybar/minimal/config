@@ -82,7 +82,7 @@
         "battery", 
         "custom/exit",
         "custom/notification",
-        "custom/ml4w-welcome",
+        // "custom/ml4w-welcome",
         "clock"
     ]
 }
