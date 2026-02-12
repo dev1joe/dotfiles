@@ -10,7 +10,7 @@ killall waybar
 sleep 0.5
 
 # load the configuration based on the user
-if [[ $USER -eq 'joe' ]]
+if [[ $USER == 'joe' ]]; then
     waybar -c ~/.config/waybar/minimal/config -s ~/.config/waybar/minimal/style.css &
 else 
     waybar &

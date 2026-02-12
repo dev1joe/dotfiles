@@ -1,0 +1,5 @@
+2026-02-12 16:38:34.701 [info] Log level: Info
+2026-02-12 17:19:28.556 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: No GitHub authentication session available.
+2026-02-12 17:19:28.858 [warning] [GitHubSourceControlHistoryItemDetailsProvider][_loadAssignableUsers] Failed to load assignable user(s) for dev1joe/dotfiles: Error: No GitHub authentication session available.
+2026-02-12 18:09:35.626 [info] Log level: Info
+2026-02-12 18:09:35.778 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: No GitHub authentication session available.

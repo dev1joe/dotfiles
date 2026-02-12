@@ -1,0 +1,16 @@
+kanata
+nautilus
+network-manager-applet
+bluez bluez-libs  bluez-plugins bluez-tools bluez-utils blueman pulseaudio-bluetooth
+pavucontrol
+firefox
+aur/brave-browser
+aur/visual-studio-code-bin
+hyprland hyprpaper hyprlock hyprlauncher
+waybar
+aur/spotify
+github-cli
+awesome-terminal-fonts
+wlogout
+ttf-nerd-fonts-symbols-3.4.0-1 
+ttf-nerd-fonts-symbols-common-3.4.0-1

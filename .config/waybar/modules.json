@@ -66,7 +66,8 @@
     },
     // Tools
     "custom/tools": {
-        "format": "",
+        // "format": "",
+        "format": "",
         "tooltip-format": "Tools"
     },
     // Cliphist
@@ -155,7 +156,7 @@
     },
     // Hyprshade
     "custom/hyprshade": {
-        "format": "",
+        "format": "󰊪",
         "tooltip-format": "Toggle Screen Shader",
         "on-click": "sleep 0.5; ~/.config/hypr/scripts/hyprshade.sh",
         "on-click-right": "sleep 0.5; ~/.config/hypr/scripts/hyprshade.sh rofi"
@@ -194,7 +195,8 @@
     },
     // System
     "custom/system": {
-        "format": "",
+        // "format": "",
+        "format": "",
         "tooltip": false
     },
     // CPU
@@ -273,7 +275,7 @@
     // Network
     "network": {
         "format": "{ifname}",
-        "format-wifi": " {essid} ({signalStrength}%)",
+        "format-wifi": " ",
         "format-ethernet": "  {ifname}",
         "format-disconnected": "Disconnected ⚠",
         "tooltip-format": " {ifname} via {gwaddri}",
@@ -281,7 +283,7 @@
         "tooltip-format-ethernet": " {ifname}\nIP: {ipaddr}\n up: {bandwidthUpBits} down: {bandwidthDownBits}",
         "tooltip-format-disconnected": "Disconnected",
         "max-length": 50,
-        "on-click": "./scripts/nm-applet.sh toggle"
+        "on-click": "~/.config/waybar/scripts/nm-applet.sh toggle"
     },
     // Battery
     "battery": {
@@ -291,9 +293,10 @@
             "critical": 15
         },
         "format": "{icon} {capacity}%",
-        "format-charging": "  {capacity}%",
-        "format-plugged": "  {capacity}%",
-        "format-alt": "{icon}  {time}",
+        // "format-charging": "  {capacity}%",
+        "format-charging": "󰂄 {capacity}%",
+        "format-plugged": " {capacity}%",
+        "format-alt": "{icon} {time}",
         // "format-good": "", // An empty format will hide the module
         // "format-full": "",
         "format-icons": [
@@ -312,26 +315,28 @@
         "format-icons": {
             "default": "",
             "performance": "",
-            "balanced": "",
+            // "balanced": "",
+            // "balanced": "",
+            "balanced": "󱪉",
             "power-saver": ""
         }
     },
     // Pulseaudio
     "pulseaudio": {
         // "scroll-step": 1, // %, can be a float
-        "format": "{icon}  {volume}%",
+        "format": "{icon} {volume}%",
         "format-bluetooth": "{volume}% {icon} {format_source}",
-        "format-bluetooth-muted": " {icon} {format_source}",
-        "format-muted": " {format_source}",
+        "format-bluetooth-muted": " {icon} {format_source}",
+        "format-muted": " {format_source}",
         "format-source": "{volume}% ",
         "format-source-muted": "",
         "format-icons": {
-            "headphone": " ",
-            "hands-free": " ",
-            "headset": " ",
-            "phone": " ",
-            "portable": " ",
-            "car": " ",
+            "headphone": "",
+            // "hands-free": "",
+            "headset": "󰋎",
+            "phone": "",
+            "portable": "",
+            "car": "",
             "default": [
                 "",
                 "",
@@ -358,6 +363,7 @@
     // backlight:
     "backlight": {
         "format": "{icon} {percent}%",
+        "tooltip-format": "brightness: {percent}%",
         "format-icons": [
             "",
             "",

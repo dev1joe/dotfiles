@@ -1,0 +1,118 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "53b621aec41c46b640107cf217e6f39d53ba5e93497ddb6175f98592318f2041",
+    "telemetry.devDeviceId": "34717139-4fe5-47ee-ab52-662e646cdb9b",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/joe/dotfiles/.config/waybar"
+            },
+            {
+                "folderUri": "file:///home/joe/my-configs"
+            },
+            {
+                "folderUri": "file:///home/joe/dotfiles/.config"
+            }
+        ],
+        "emptyWindows": []
+    },
+    "windowControlHeight": 35,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/joe/dotfiles/.config/waybar": "__default__profile__",
+            "file:///home/joe/my-configs": "__default__profile__",
+            "file:///home/joe/dotfiles/.config": "__default__profile__"
+        },
+        "emptyWindows": {}
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///home/joe/dotfiles/.config",
+            "backupPath": "/home/joe/.config/Code/Backups/dd42fcee946137ac2350bf709753f755",
+            "uiState": {
+                "mode": 0,
+                "x": 0,
+                "y": 0,
+                "width": 780,
+                "height": 822,
+                "zoomLevel": -1
+            }
+        },
+        "openedWindows": [
+            {
+                "folder": "file:///home/joe/dotfiles/.config",
+                "backupPath": "/home/joe/.config/Code/Backups/dd42fcee946137ac2350bf709753f755",
+                "uiState": {
+                    "mode": 0,
+                    "x": 0,
+                    "y": 0,
+                    "width": 780,
+                    "height": 822,
+                    "zoomLevel": -1
+                }
+            },
+            {
+                "folder": "file:///home/joe/my-configs",
+                "backupPath": "/home/joe/.config/Code/Backups/df612887403787a3234e5c049fd1fa92",
+                "uiState": {
+                    "mode": 0,
+                    "x": 0,
+                    "y": 0,
+                    "width": 780,
+                    "height": 822
+                }
+            }
+        ]
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#1f1f1f",
+    "windowSplash": {
+        "zoomLevel": 0.3,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#cccccc",
+            "background": "#1f1f1f",
+            "editorBackground": "#1f1f1f",
+            "titleBarBackground": "#181818",
+            "titleBarBorder": "#2b2b2b",
+            "activityBarBackground": "#181818",
+            "activityBarBorder": "#2b2b2b",
+            "sideBarBackground": "#181818",
+            "sideBarBorder": "#2b2b2b",
+            "statusBarBackground": "#181818",
+            "statusBarBorder": "#2b2b2b",
+            "statusBarNoFolderBackground": "#1f1f1f"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 42,
+            "activityBarWidth": 48,
+            "sideBarWidth": 231,
+            "auxiliaryBarWidth": 0,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 231,
+            "auxiliaryBarWidth": 231,
+            "workspaces": {
+                "a66d788028e62768d42eb1608342c036": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "5f858f76127eba59260042dbda43ce11": {
+                    "sideBarVisible": false,
+                    "auxiliaryBarVisible": false
+                },
+                "4be4546998d6b72fc1302855ba66deee": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                }
+            }
+        }
+    }
+}

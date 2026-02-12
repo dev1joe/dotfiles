@@ -32,27 +32,6 @@
         "on-click-right": "~/.config/ml4w/settings/software.sh"
     },
 
-    // Pulseaudio
-    "pulseaudio": {
-        // "scroll-step": 1, // %, can be a float
-        "format": "{icon}   {volume}%",
-        "format-bluetooth": "{volume}% {icon} {format_source}",
-        "format-bluetooth-muted": " {icon} {format_source}",
-        "format-muted": " {format_source}",
-        "format-source": "{volume}% ",
-        "format-source-muted": "",
-        "format-icons": {
-        "headphone": " ",
-        "hands-free": " ",
-        "headset": " ",
-        "phone": " ",
-        "portable": " ",
-        "car": " ",
-        "default": [" ", " ", " "]
-        },
-        "on-click": "pavucontrol"
-    },
-
     // Modules Left
     "modules-left": [
         "custom/appmenuicon",
