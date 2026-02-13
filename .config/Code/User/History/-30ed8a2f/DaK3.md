@@ -1,0 +1,50 @@
+- [X] hypraland config
+    - [X] monitors
+    - [X] keyboard_us
+    - [X] keyboard_halmak
+    - [ ] keybindings_us config
+    - [X] keybindings_halmak config
+- [X] hyprlock
+- [X] hypridle
+- [X] hyprpaper
+- [X] waybar
+    - [X] bluetooth applet (blueman-manager)
+    - [X] network manager applet
+    - [X] audio applet (pulse-audio)
+    - [X] brightness applet (backlight)
+    - [X] power menu (wlogout)
+    - [X] power profile daemon
+- [X] fonts
+- [X] terminal
+    - [X] kitty configuration
+    - [X] nice prompt (ohmyposh)
+    - [X] show file extension icon (eza)
+    - [ ] show symbolic links
+- [X] waypaper, although hyprpaper is available
+- [ ] swaync (notification)
+- [ ] clipboard (ml4w uses wl-clipboard)
+- [ ] screenshot utility
+
+- [ ] nvidia-drivers
+
+- [ ] custom monitors' profile switcher using SUPER + P (J in halmak)
+- [ ] custom keyboard config file switcher
+- [ ] how about changing a variable instead of a whole file ?? try it! but for monitors I have to cycle between files, I can't use variables
+
+- [ ] change vscode fonts
+- [X] install vscode extensions
+- [ ] change icons in waybar
+- [ ] set 'remember_window_size' to 'no' in hyprland
+- [ ] waybar system tray (install nmp-applet and blueman and activate them) 
+- [X] fix bluetooth
+- [ ] integrate nvim with wl-copy & wl-paste
+- [ ] rofi theme
+- [X] hyprpaper
+- [ ] wallpaper switcher
+- [ ] hyprland: moving windows on focus change
+- [ ] login manager
+- [ ] install brightnessctl
+- [ ] install nwg-look
+- [ ] use 'Adwaita Sans' system wide
+- [ ] terminal rice [video](https://www.youtube.com/watch?v=tOZxKiZeOTU)
+- [ ] configure hyprland for laptop [vide](https://www.youtube.com/watch?v=60_nSNQBNqw)

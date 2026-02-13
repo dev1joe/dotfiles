@@ -13,16 +13,20 @@
             },
             {
                 "folderUri": "file:///home/joe/dotfiles/.config"
+            },
+            {
+                "folderUri": "file:///home/joe/ml4w.repo/dotfiles"
             }
         ],
         "emptyWindows": []
     },
-    "windowControlHeight": 35,
+    "windowControlHeight": 37,
     "profileAssociations": {
         "workspaces": {
             "file:///home/joe/dotfiles/.config/waybar": "__default__profile__",
             "file:///home/joe/my-configs": "__default__profile__",
-            "file:///home/joe/dotfiles/.config": "__default__profile__"
+            "file:///home/joe/dotfiles/.config": "__default__profile__",
+            "file:///home/joe/ml4w.repo/dotfiles": "__default__profile__"
         },
         "emptyWindows": {}
     },
@@ -98,7 +102,7 @@
     "windowSplashWorkspaceOverride": {
         "layoutInfo": {
             "sideBarWidth": 231,
-            "auxiliaryBarWidth": 231,
+            "auxiliaryBarWidth": 182,
             "workspaces": {
                 "a66d788028e62768d42eb1608342c036": {
                     "sideBarVisible": true,
@@ -109,6 +113,10 @@
                     "auxiliaryBarVisible": false
                 },
                 "4be4546998d6b72fc1302855ba66deee": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "2c307fb31df8c9f0864c5f564aff2fbe": {
                     "sideBarVisible": true,
                     "auxiliaryBarVisible": false
                 }

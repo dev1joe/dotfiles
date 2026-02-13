@@ -1,0 +1,129 @@
+{
+    "python.venvFolders": [
+        "/home/joe/myenv"
+    ],
+    "files.autoSave": "afterDelay",
+    "window.zoomLevel": 0.3,
+    "editor.fontFamily": "'FiraCode Nerd Font', 'Droid Sans Mono', 'monospace', monospace",
+    "explorer.confirmDelete": false,
+    "editor.minimap.enabled": false,
+    "python.analysis.typeCheckingMode": "standard",
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false,
+        "css": false,
+        "html": false,
+        "javascript": true,
+        "typescriptreact": false
+    },
+    "editor.cursorStyle": "block",
+    "[vue]": {
+        "editor.defaultFormatter": "Vue.volar"
+    },
+    "explorer.confirmDragAndDrop": false,
+    "update.showReleaseNotes": false,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "workbench.iconTheme": "symbols",
+    "workbench.tree.renderIndentGuides": "always",
+    "symbols.files.associations": {
+        "*.service.ts": "ts",
+        "*.service.js": "js",
+    },
+    "symbols.folders.associations": {
+        "controllers": "folder-core"
+    },
+        "cSpell.userWords": [
+            "Arcject",
+            "arcjet",
+            "ASUS",
+            "AUTHTOKEN",
+            "automations",
+            "blueman",
+            "Customizer",
+            "defences",
+            "dockerfiles",
+            "GOVERNORATES",
+            "gsap",
+            "ilike",
+            "initdb",
+            "Locallyco",
+            "Mailjet",
+            "Morphiq",
+            "ndarray",
+            "neondatabase",
+            "NGROK",
+            "nvim",
+            "oneline",
+            "ozyra",
+            "PETG",
+            "pgvector",
+            "retryable",
+            "rofi",
+            "skus",
+            "Stackable",
+            "standarize",
+            "SUPABASE",
+            "trixie",
+            "venv",
+            "VITE",
+            "waybar"
+        ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        // {
+        //     "before": ["<C-h>"],
+        //     "after": ["<C-w>", "h"]
+        // },
+        // {
+        //     "before": ["<C-j>"],
+        //     "after": ["<C-w>", "j"]
+        // },
+        {
+            "before": [
+                "a"
+            ],
+            "after": [
+                "h"
+            ]
+        },
+        {
+            "before": [
+                "e"
+            ],
+            "after": [
+                "j"
+            ]
+        },
+        {
+            "before": [
+                "o"
+            ],
+            "after": [
+                "k"
+            ]
+        },
+        {
+            "before": [
+                "i"
+            ],
+            "after": [
+                "l"
+            ]
+        },
+        {
+            "before": [
+                "u"
+            ],
+            "after": [
+                "i"
+            ]
+        },
+    ],
+    "cSpell.ignoreWords": [
+        "drei"
+    ],
+    "editor.fontSize": 17,
+    "github.copilot.nextEditSuggestions.enabled": false,
+    "editor.wordWrap": "off",
+}

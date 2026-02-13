@@ -2,3 +2,7 @@
 2026-02-12 18:02:37.423 [info] MCP Registry configured: https://api.mcp.github.com
 2026-02-12 18:02:37.619 [info] Settings Sync: Account status changed from uninitialized to unavailable
 2026-02-12 18:02:39.219 [info] [perf] Render performance baseline is 26ms
+2026-02-13 01:18:00.123 [error] [Extension Host] (node:11975) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-02-13 01:22:20.593 [warning] [DefaultAccount] Received 429 Too Many Requests for https://api.github.com/copilot/mcp_registry.
+2026-02-13 01:22:31.730 [error] [Extension Host] (node:11975) ExperimentalWarning: SQLite is an experimental feature and might change at any time

@@ -1,0 +1,37 @@
+2026-02-13 01:22:31.983 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2026-02-13 01:22:31.983 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2026-02-13 01:22:31.983 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2026-02-13 01:22:31.983 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2026-02-13 01:22:32.008 [info] Logged in as dev1joe
+2026-02-13 01:22:32.011 [info] Using the Electron fetcher.
+2026-02-13 01:22:32.488 [info] ConversationFeature: Waiting for copilot token to activate conversation feature
+2026-02-13 01:22:32.493 [info] Creating node-pty shim: source=/opt/visual-studio-code/resources/app/node_modules/node-pty/build/Release, dest=/home/joe/.vscode/extensions/github.copilot-chat-0.37.5/node_modules/@github/copilot/prebuilds/linux-x64
+2026-02-13 01:22:32.493 [info] Creating ripgrep shim: source=/opt/visual-studio-code/resources/app/node_modules/@vscode/ripgrep/bin, dest=/home/joe/.vscode/extensions/github.copilot-chat-0.37.5/node_modules/@github/copilot/sdk/ripgrep/bin/linux-x64
+2026-02-13 01:22:32.588 [info] Found 1 entries to copy: pty.node
+2026-02-13 01:22:32.593 [info] Found 1 entries to copy: rg
+2026-02-13 01:22:32.632 [info] Got Copilot token for dev1joe
+2026-02-13 01:22:32.632 [info] Copilot Chat: 0.37.5, VS Code: 1.109.2
+2026-02-13 01:22:32.658 [info] [context keys] Setting context key: github.copilot-chat.activated
+2026-02-13 01:22:32.660 [info] activationBlocker from 'languageModelAccess' took for 262ms
+2026-02-13 01:22:33.787 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-02-13 01:22:33.787 [info] copilot token sku: free_limited_copilot
+2026-02-13 01:22:33.787 [info] ConversationFeature: Activating contributions
+2026-02-13 01:22:33.787 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2026-02-13 01:22:33.789 [info] Registering default platform agent...
+2026-02-13 01:22:33.789 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-02-13 01:22:33.790 [info] [code-referencing] Public code references are enabled.
+2026-02-13 01:22:33.790 [info] activationBlocker from 'conversationFeature' took for 1411ms
+2026-02-13 01:22:33.806 [info] GithubAvailableEmbeddingTypesManager: Got embeddings. Primary: metis-1024-I16-Binary. Deprecated: 
+2026-02-13 01:22:33.812 [info] WorkspaceChunkSearchService: using embedding type metis-1024-I16-Binary
+2026-02-13 01:22:33.887 [info] Fetched model metadata in 1452ms 02e1e40c-a5a0-426d-b5db-6660cdba6780
+2026-02-13 01:22:34.022 [info] BYOK: Copilot Chat known models list fetched successfully.
+2026-02-13 01:22:34.189 [info] Latest entry: ccreq:latest.copilotmd
+2026-02-13 01:22:34.189 [info] ccreq:b4345169.copilotmd | markdown
+2026-02-13 01:22:34.516 [error] Error: Failed to fetch custom instructions for org dev1joe: 
+	at IN.getOrgCustomInstructions (/home/joe/.vscode/extensions/github.copilot-chat-0.37.5/dist/extension.js:1425:9055)
+	at async q7.pollInstructions (/home/joe/.vscode/extensions/github.copilot-chat-0.37.5/dist/extension.js:1140:1174)
+	at async /home/joe/.vscode/extensions/github.copilot-chat-0.37.5/dist/extension.js:1135:22307
+2026-02-13 01:22:34.518 [error] [GitHubAPI] GET https://api.github.com/orgs/dev1joe/repos?per_page=1&sort=updated - Status: 404
+2026-02-13 01:22:40.218 [info] Refetch model metadata: Succeeded in 979ms 7020d9be-2795-4b67-8351-76500f5f3fc8 (3CAD:3D689:7B3A6:9314C:698E60BF) using node-fetch with status 200.
+2026-02-13 01:22:41.493 [info] Refetch model metadata: Succeeded in 1275ms 787947a9-67e9-477e-84a9-33ff4da5d9f8 (3CAE:4DAEC:80B45:98D38:698E60C0) using node-http with status 200.
+2026-02-13 01:22:41.966 [info] Refetch model metadata: Succeeded in 473ms 04c9be97-5402-484b-9eea-3159495f2819 (3BD2:23D78:76931:8E759:698E60B9) using electron-fetch with status 200.

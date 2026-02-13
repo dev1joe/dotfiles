@@ -1,0 +1,35 @@
+- [X] hypraland config
+    - [X] monitors
+    - [X] keyboard_us
+    - [X] keyboard_halmak
+    - [ ] keybindings_us config
+    - [X] keybindings_halmak config
+- [X] hyprlock
+- [X] hypridle
+- [X] hyprpaper
+- [X] waybar
+    - [X] bluetooth applet (blueman-manager)
+    - [X] network manager applet
+    - [X] audio applet (pulse-audio)
+    - [X] brightness applet (backlight)
+    - [X] power menu (wlogout)
+    - [X] power profile daemon
+- [X] fonts
+- [X] terminal
+    - [X] kitty configuration
+    - [X] nice prompt (ohmyposh)
+    - [X] show file extension icon (eza)
+    - [ ] show symbolic links
+- [X] waypaper, although hyprpaper is available
+- [ ] swaync (notification)
+- [ ] clipboard (ml4w uses wl-clipboard)
+- [ ] screenshot utility
+
+- [ ] nvidia-drivers
+
+- [ ] custom monitors' profile switcher using SUPER + P (J in halmak)
+- [ ] custom keyboard config file switcher
+- [ ] how about changing a variable instead of a whole file ?? try it! but for monitors I have to cycle between files, I can't use variables
+
+- [ ] change vscode fonts
+- [ ] change icons in waybar

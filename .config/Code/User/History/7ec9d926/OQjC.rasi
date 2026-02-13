@@ -1,0 +1,25 @@
+/****----- Configuration ----****/
+configuration {
+    show-icons: false;
+}
+
+/****----- Global Properties ----****/
+* {
+    background-color: transparent;
+    text-color: #FFF;
+    margin: 0px;
+    padding: 0px;
+    spacing: 0px;
+}
+
+/****----- Main Window ----****/
+window {
+    transparency: "real";
+    location: center;
+    anchor: center;
+    y-offset: 0px;
+    width: 500px;
+    border: 1px solid;
+    border-radius: 20px;
+    border-color: #FFF;
+}

@@ -7,3 +7,8 @@
 2026-02-12 18:09:35.325 [info] Settings Sync: Account status changed from uninitialized to unavailable
 2026-02-12 18:09:37.236 [info] [perf] Render performance baseline is 29ms
 2026-02-12 21:27:28.012 [error] An unknown error occurred. Please consult the log for more details.
+2026-02-13 01:22:31.538 [error] [Extension Host] (node:15081) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-02-13 01:22:31.539 [error] [Extension Host] (node:15081) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+2026-02-13 01:22:34.059 [error] An unknown error occurred. Please consult the log for more details.
+2026-02-13 01:22:40.401 [error] An unknown error occurred. Please consult the log for more details.

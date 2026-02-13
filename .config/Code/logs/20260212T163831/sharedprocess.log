@@ -1,0 +1,30 @@
+2026-02-12 22:33:27.537 [info] Getting Manifest... dlasagno.rasi
+2026-02-12 22:33:27.835 [info] Installing extension: dlasagno.rasi {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/joe/.vscode/extensions/extensions.json","path":"/home/joe/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.109.2","date":"2026-02-10T20:18:23.520Z"}}
+2026-02-12 22:33:31.970 [info] Extension signature verification result for dlasagno.rasi: Success. Internal Code: 0. Executed: true. Duration: 2033ms.
+2026-02-12 22:33:31.982 [info] Extracted extension to file:///home/joe/.vscode/extensions/dlasagno.rasi-1.0.0: dlasagno.rasi
+2026-02-12 22:33:31.988 [info] Renamed to /home/joe/.vscode/extensions/dlasagno.rasi-1.0.0
+2026-02-12 22:33:31.996 [info] Extension installed successfully: dlasagno.rasi vscode-userdata:/home/joe/.vscode/extensions/extensions.json
+2026-02-13 01:21:13.326 [info] Getting Manifest... streetsidesoftware.code-spell-checker
+2026-02-13 01:21:13.502 [info] Installing extension: streetsidesoftware.code-spell-checker {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/joe/.vscode/extensions/extensions.json","path":"/home/joe/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.109.2","date":"2026-02-10T20:18:23.520Z"}}
+2026-02-13 01:21:16.052 [info] Extension signature verification result for streetsidesoftware.code-spell-checker: Success. Internal Code: 0. Executed: true. Duration: 721ms.
+2026-02-13 01:21:16.309 [info] Extracted extension to file:///home/joe/.vscode/extensions/streetsidesoftware.code-spell-checker-4.5.6: streetsidesoftware.code-spell-checker
+2026-02-13 01:21:16.333 [info] Renamed to /home/joe/.vscode/extensions/streetsidesoftware.code-spell-checker-4.5.6
+2026-02-13 01:21:16.347 [info] Extension installed successfully: streetsidesoftware.code-spell-checker vscode-userdata:/home/joe/.vscode/extensions/extensions.json
+2026-02-13 01:21:28.833 [info] Getting Manifest... aaron-bond.better-comments
+2026-02-13 01:21:29.210 [info] Installing extension: aaron-bond.better-comments {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/joe/.vscode/extensions/extensions.json","path":"/home/joe/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.109.2","date":"2026-02-10T20:18:23.520Z"}}
+2026-02-13 01:21:30.684 [info] Extension signature verification result for aaron-bond.better-comments: Success. Internal Code: 0. Executed: true. Duration: 720ms.
+2026-02-13 01:21:30.710 [info] Extracted extension to file:///home/joe/.vscode/extensions/aaron-bond.better-comments-3.0.2: aaron-bond.better-comments
+2026-02-13 01:21:30.721 [info] Renamed to /home/joe/.vscode/extensions/aaron-bond.better-comments-3.0.2
+2026-02-13 01:21:30.733 [info] Extension installed successfully: aaron-bond.better-comments vscode-userdata:/home/joe/.vscode/extensions/extensions.json
+2026-02-13 01:22:21.651 [info] Getting Manifest... github.copilot-chat
+2026-02-13 01:22:21.839 [info] Installing extension: github.copilot-chat {"enable":true,"isApplicationScoped":true,"isMachineScoped":false,"installEverywhere":true,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/joe/.vscode/extensions/extensions.json","path":"/home/joe/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"productVersion":{"version":"1.109.2","date":"2026-02-10T20:18:23.520Z"}}
+2026-02-13 01:22:28.744 [info] Extension signature verification result for github.copilot-chat: Success. Internal Code: 0. Executed: true. Duration: 1472ms.
+2026-02-13 01:22:29.271 [info] Extracted extension to file:///home/joe/.vscode/extensions/github.copilot-chat-0.37.5: github.copilot-chat
+2026-02-13 01:22:29.283 [info] Renamed to /home/joe/.vscode/extensions/github.copilot-chat-0.37.5
+2026-02-13 01:22:29.315 [info] Extension installed successfully: github.copilot-chat vscode-userdata:/home/joe/.vscode/extensions/extensions.json
+2026-02-13 01:23:41.017 [info] Getting Manifest... gruntfuggly.todo-tree
+2026-02-13 01:23:41.246 [info] Installing extension: gruntfuggly.todo-tree {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/joe/.vscode/extensions/extensions.json","path":"/home/joe/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.109.2","date":"2026-02-10T20:18:23.520Z"}}
+2026-02-13 01:23:43.816 [info] Extension signature verification result for gruntfuggly.todo-tree: Success. Internal Code: 0. Executed: true. Duration: 701ms.
+2026-02-13 01:23:43.852 [info] Extracted extension to file:///home/joe/.vscode/extensions/gruntfuggly.todo-tree-0.0.226: gruntfuggly.todo-tree
+2026-02-13 01:23:43.858 [info] Renamed to /home/joe/.vscode/extensions/gruntfuggly.todo-tree-0.0.226
+2026-02-13 01:23:43.871 [info] Extension installed successfully: gruntfuggly.todo-tree vscode-userdata:/home/joe/.vscode/extensions/extensions.json

@@ -32,3 +32,37 @@
 2026-02-12 21:14:13.780 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
 2026-02-12 21:14:13.840 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
 2026-02-12 21:27:18.824 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2026-02-13 01:21:16.800 [info] ExtensionService#_doActivateExtension streetsidesoftware.code-spell-checker, startup: false, activationEvent: 'onStartupFinished'
+2026-02-13 01:21:30.799 [info] ExtensionService#_doActivateExtension aaron-bond.better-comments, startup: false, activationEvent: 'onStartupFinished'
+2026-02-13 01:22:30.052 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2026-02-13 01:22:31.661 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2026-02-13 01:22:34.056 [error] Error: GitHubLoginFailed
+	at WG._authShowWarnings (/home/joe/.vscode/extensions/github.copilot-chat-0.37.5/dist/extension.js:1596:18508)
+	at async WG.getCopilotToken (/home/joe/.vscode/extensions/github.copilot-chat-0.37.5/dist/extension.js:1596:16226)
+	at async Zte.getCopilotToken (/home/joe/.vscode/extensions/github.copilot-chat-0.37.5/dist/extension.js:1125:6438)
+	at async CK.updateCachedToken (/home/joe/.vscode/extensions/github.copilot-chat-0.37.5/dist/extension.js:2427:8713)
+2026-02-13 01:22:34.057 [error] Error: GitHubLoginFailed
+	at WG._authShowWarnings (/home/joe/.vscode/extensions/github.copilot-chat-0.37.5/dist/extension.js:1596:18508)
+	at async WG.getCopilotToken (/home/joe/.vscode/extensions/github.copilot-chat-0.37.5/dist/extension.js:1596:16226)
+	at async Zte.getCopilotToken (/home/joe/.vscode/extensions/github.copilot-chat-0.37.5/dist/extension.js:1125:6438)
+	at async VC._fetchModels (/home/joe/.vscode/extensions/github.copilot-chat-0.37.5/dist/extension.js:6097:4429)
+2026-02-13 01:22:39.270 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-02-13 01:22:40.400 [error] Error: GitHubLoginFailed
+	at WG._authShowWarnings (/home/joe/.vscode/extensions/github.copilot-chat-0.37.5/dist/extension.js:1596:18508)
+	at async WG.getCopilotToken (/home/joe/.vscode/extensions/github.copilot-chat-0.37.5/dist/extension.js:1596:16226)
+	at async Zte.getCopilotToken (/home/joe/.vscode/extensions/github.copilot-chat-0.37.5/dist/extension.js:1125:6438)
+	at async CK.updateCachedToken (/home/joe/.vscode/extensions/github.copilot-chat-0.37.5/dist/extension.js:2427:8713)
+2026-02-13 01:23:43.951 [info] ExtensionService#_doActivateExtension Gruntfuggly.todo-tree, startup: false, activationEvent: 'onStartupFinished'
+2026-02-13 01:28:46.239 [warning] [Decorations] CAPPING events from decorations provider vscode.git 303
+2026-02-13 01:29:25.460 [warning] [Decorations] CAPPING events from decorations provider vscode.git 304
+2026-02-13 01:33:54.829 [warning] [Decorations] CAPPING events from decorations provider vscode.git 305
+2026-02-13 01:34:18.306 [warning] [Decorations] CAPPING events from decorations provider vscode.git 305
+2026-02-13 01:34:30.863 [warning] [Decorations] CAPPING events from decorations provider vscode.git 306
+2026-02-13 01:34:42.988 [warning] [Decorations] CAPPING events from decorations provider vscode.git 306
+2026-02-13 01:35:25.388 [warning] [Decorations] CAPPING events from decorations provider vscode.git 319
+2026-02-13 01:36:19.873 [warning] [Decorations] CAPPING events from decorations provider vscode.git 322
+2026-02-13 01:39:16.158 [warning] [Decorations] CAPPING events from decorations provider vscode.git 323
+2026-02-13 01:42:50.677 [warning] [Decorations] CAPPING events from decorations provider vscode.git 323
+2026-02-13 01:42:55.777 [warning] [Decorations] CAPPING events from decorations provider vscode.git 323
+2026-02-13 04:31:03.990 [warning] [Decorations] CAPPING events from decorations provider vscode.git 323
+2026-02-13 04:31:09.046 [warning] [Decorations] CAPPING events from decorations provider vscode.git 323
