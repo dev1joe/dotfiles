@@ -29,8 +29,9 @@
  * ----------------------------------------------------- */
 
 * {
-    font-family: "Adwaita Sans", FontAwesome, Roboto, Helvetica, Arial, sans-serif;
+    font-family: "JetBrainsMono Nerd Font Mono", FontAwesome, Roboto, Helvetica, Arial, sans-serif;
     font-weight: 600;
+    font-size: 2em;
     border: none;
     border-radius: 0px;
 }
