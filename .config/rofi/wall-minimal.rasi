@@ -26,8 +26,8 @@ window {
     location: center;
     anchor: center;
     y-offset: 0px;
-    width: 500px;
-    height: 600px;
+    width: 1000px;
+    height: 700px;
     border: 1px solid;
     border-radius: 20px;
     border-color: #FFF;
@@ -71,12 +71,13 @@ entry {
 /****----- Listview ----****/
 listview {
     enabled: true;
-    columns: 1;
-    lines: 9;
+    columns: 3;
+    // lines: 9;
     cycle: true;
     dynamic: true;
     scrollbar: false;
     layout: vertical;
+    flow: horizontal;
     reverse: false;
     fixed-height: false;
     fixed-columns: true;
@@ -94,14 +95,17 @@ listview {
 /****----- Elements ----****/
 element {
     enabled: true;
-    spacing: 10px;
     padding: 10px 16px;
     border: 0px solid;
     border-radius: 12px;
     background-color: transparent;
     text-color: #FFF;
     cursor: pointer;
-}
+
+    orientation: vertical;
+    children: [ element-icon, element-text ];
+    spacing: 10px;
+}       
 
 element normal.normal {
     background-color: transparent;
@@ -119,7 +123,7 @@ element selected.normal {
 }
 
 element-icon {
-    size: 30px;
+    size: 200px;
 }
 
 error-message {

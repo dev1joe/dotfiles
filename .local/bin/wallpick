@@ -1,0 +1,26 @@
+#!/bin/bash
+
+WALLS_DIR="$HOME/Pictures/wallpapers-new"
+ROFI_THEME="$HOME/.config/rofi/wall-minimal.rasi"
+
+cd "$WALLS_DIR" || exit
+
+SELECTED_WALL=$(for w in *.jpg *.png; do echo -en "$w\0icon\x1f$w\n"; done | rofi -dmenu -p '' -theme "$ROFI_THEME")
+
+# using -n for (not empty)
+if [ -n "$SELECTED_WALL" ]; then
+	# change wallpaper using swww
+	swww img "$SELECTED_WALL"
+
+	# get the extension of the selected wallpaper
+	EXTENSION=$(echo "$SELECTED_WALL" | cut -d'.' -f2)
+	
+	# chock if it's NOT png, convert it to png
+	if [[ "${EXTENSION,,}" != "png" ]]; then
+		magick $SELECTED_WALL selected-wallpaper.png && \
+		mv selected-wallpaper.png "$HOME"/.cache/
+	else
+		# copy selected wallpaper to .cache dircetory
+		cp "$SELECTED_WALL" "$HOME"/.cache/selected-wallpaper.png
+	fi
+fi

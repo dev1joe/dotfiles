@@ -5,6 +5,13 @@ export PATH="/usr/lib/ccache/bin/:$PATH"
 export PATH=$PATH:~/.cargo/bin/
 export PATH=~/.npm.global/bin:$PATH
 
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+
+# my binaries
+export PATH="$HOME/bin:$HOME/.local/bin:$PATH"
+
 #  _________________________
 # [____ general aliases ____]
 alias c='clear'
@@ -42,7 +49,3 @@ else
         echo "Start Hyprland with command Hyprland"
     fi
 fi
-
-# bun
-export BUN_INSTALL="$HOME/.bun"
-export PATH="$BUN_INSTALL/bin:$PATH"
