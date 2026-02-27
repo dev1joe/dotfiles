@@ -17,7 +17,8 @@ export PATH="$HOME/bin:$HOME/.local/bin:$PATH"
 
 #  _________________________
 # [____ general aliases ____]
-alias c='clear'
+alias cl='clear'
+alias cla="printf '\033[2J\033[3J\033[1;1H'"
 alias nf='fastfetch'
 alias pf='fastfetch'
 alias ff='fastfetch'
@@ -29,7 +30,6 @@ alias v='$EDITOR'
 alias vim='$EDITOR'
 alias ts='~/.config/ml4w/scripts/snapshot.sh'
 alias wifi='nmtui'
-alias cleanup='~/.config/ml4w/scripts/cleanup.sh'
 
 #  ------------------------
 # [____ CUSTOMIZATION _____]
