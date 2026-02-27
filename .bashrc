@@ -5,6 +5,9 @@ export PATH="/usr/lib/ccache/bin/:$PATH"
 export PATH=$PATH:~/.cargo/bin/
 export PATH=~/.npm.global/bin:$PATH
 
+# go binaries
+export PATH=~/go/bin:$PATH
+
 # bun
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"

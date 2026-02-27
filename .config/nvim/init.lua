@@ -1,3 +1,7 @@
+-- configuration powered by typecraft tutorials
+-- https://github.com/cpow/neovim-for-newbs
+-- https://www.youtube.com/playlist?list=PLsz00TDipIffreIaUNk64KxTIkQaGguqn
+
 -- line numbers
 vim.opt.number = true
 vim.opt.relativenumber = true
@@ -9,9 +13,9 @@ vim.opt.clipboard = "unnamedplus"
 vim.opt.wrap = false
 
 -- tab behavior and indentation
-vim.opt.tabstop = 4
-vim.opt.shiftwidth = 4
-vim.opt.softtabstop = 4
+vim.opt.tabstop = 2
+vim.opt.shiftwidth = 2
+vim.opt.softtabstop = 2
 
 -- background transparency
 -- vim.cmd [[
