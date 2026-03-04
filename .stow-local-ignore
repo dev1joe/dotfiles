@@ -25,3 +25,6 @@ _darcs
 
 # my ignore list
 \.config/Code
+
+# ignore nvim config for now
+.config/nvim
