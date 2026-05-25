@@ -15,6 +15,9 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 # my binaries
 export PATH="$HOME/bin:$HOME/.local/bin:$PATH"
 
+# dotnet tools
+export PATH="$HOME/.dotnet/tools:$PATH"
+
 #  _________________________
 # [____ general aliases ____]
 alias cl='clear'
@@ -45,10 +48,10 @@ eval "$(oh-my-posh init bash --config $HOME/.config/ohmyposh/EDM115-newline.omp.
 
 # Fastfetch
 if [[ $(tty) == *"pts"* ]]; then
-    fastfetch --config examples/13
+  fastfetch --config examples/13
 else
-    echo
-    if [ -f /bin/hyprctl ]; then
-        echo "Start Hyprland with command Hyprland"
-    fi
+  echo
+  if [ -f /bin/hyprctl ]; then
+    echo "Start Hyprland with command Hyprland"
+  fi
 fi
