@@ -9,18 +9,18 @@ SELECTED_WALL=$(for w in *.jpg *.png; do echo -en "$w\0icon\x1f$w\n"; done | rof
 
 # using -n for (not empty)
 if [ -n "$SELECTED_WALL" ]; then
-	# change wallpaper using swww
-	swww img "$SELECTED_WALL"
+  # change wallpaper using swww
+  awww img "$SELECTED_WALL"
 
-	# get the extension of the selected wallpaper
-	EXTENSION=$(echo "$SELECTED_WALL" | cut -d'.' -f2)
-	
-	# chock if it's NOT png, convert it to png
-	if [[ "${EXTENSION,,}" != "png" ]]; then
-		magick $SELECTED_WALL selected-wallpaper.png && \
-		mv selected-wallpaper.png "$HOME"/.cache/
-	else
-		# copy selected wallpaper to .cache dircetory
-		cp "$SELECTED_WALL" "$HOME"/.cache/selected-wallpaper.png
-	fi
+  # get the extension of the selected wallpaper
+  EXTENSION=$(echo "$SELECTED_WALL" | cut -d'.' -f2)
+
+  # check if it's NOT png, convert it to png
+  if [[ "${EXTENSION,,}" != "png" ]]; then
+    magick $SELECTED_WALL selected-wallpaper.png &&
+      mv selected-wallpaper.png "$HOME"/.cache/
+  else
+    # copy selected wallpaper to .cache dircetory
+    cp "$SELECTED_WALL" "$HOME"/.cache/selected-wallpaper.png
+  fi
 fi
