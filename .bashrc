@@ -18,6 +18,9 @@ export PATH="$HOME/bin:$HOME/.local/bin:$PATH"
 # dotnet tools
 export PATH="$HOME/.dotnet/tools:$PATH"
 
+# istioctl (kubernetes service mesh)
+export PATH="$HOME/istio-1.30.2/bin:$PATH"
+
 #  _________________________
 # [____ general aliases ____]
 alias cl='clear'
@@ -55,3 +58,5 @@ else
     echo "Start Hyprland with command Hyprland"
   fi
 fi
+export PATH="/home/joe/.config/herd-lite/bin:$PATH"
+export PHP_INI_SCAN_DIR="/home/joe/.config/herd-lite/bin:$PHP_INI_SCAN_DIR"

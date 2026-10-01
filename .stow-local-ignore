@@ -27,4 +27,4 @@ _darcs
 \.config/Code
 
 # ignore nvim config for now
-.config/nvim
+.config/nvim/lua/old.plugins
