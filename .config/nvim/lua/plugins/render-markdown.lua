@@ -7,7 +7,9 @@ return {
 	---@type render.md.UserConfig
 	opts = {
 		render_modes = { "n" },
-		anti_conceal = { enabled = true },
+		anti_conceal = {
+			disabled_modes = { "n" },
+		},
 		heading = { position = "inline" },
 	},
 }

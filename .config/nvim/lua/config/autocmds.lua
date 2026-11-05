@@ -8,16 +8,17 @@
 -- e.g. vim.api.nvim_del_augroup_by_name("lazyvim_wrap_spell")
 
 -- Kitty padding management
-vim.api.nvim_create_autocmd("VimEnter", {
-  callback = function()
-    vim.defer_fn(function()
-      vim.cmd("silent !kitty @ set-spacing padding=0")
-    end, 100)
-  end,
-})
+local function kitty_padding(value)
+	vim.system({ "kitty", "@", "set-spacing", "padding=" .. value }):wait()
+end
+
+-- run immediately (works with or without file args)
+kitty_padding(0)
 
 vim.api.nvim_create_autocmd("VimLeave", {
-  callback = function()
-    vim.cmd("silent !kitty @ set-spacing padding=10")
-  end,
+	callback = function()
+		kitty_padding(10)
+	end,
 })
+
+vim.api.nvim_create_augroup("lazyvim_wrap_spell", { clear = true })
