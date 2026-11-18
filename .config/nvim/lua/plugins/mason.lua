@@ -23,6 +23,7 @@ return {
 				-- Formatters
 				"stylua",
 				"shfmt",
+				"jq",
 			},
 		},
 	},
