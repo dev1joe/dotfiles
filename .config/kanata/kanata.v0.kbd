@@ -1,0 +1,58 @@
+(defcfg
+    process-unmapped-keys yes
+)
+
+(defsrc
+    ;; caps mod
+    caps esc
+
+    ;; home & end
+    i o
+
+    ;; home row mods
+    a s d f g h j k l ;
+)
+
+(defvar
+    tap-time 200
+    hold-time 200
+)
+
+(defalias
+    ;; home row mode
+    a-mod (tap-hold $tap-time $hold-time a lmet)
+    s-mod (tap-hold $tap-time $hold-time s lalt)
+    d-mod (tap-hold $tap-time $hold-time d lsft)
+    f-mod (tap-hold $tap-time $hold-time f lctl)
+    g-mod (tap-hold $tap-time $hold-time g (layer-toggle nav))
+    j-mod (tap-hold $tap-time $hold-time j rctl)
+    k-mod (tap-hold $tap-time $hold-time k rsft)
+    l-mod (tap-hold $tap-time $hold-time l ralt)
+    ;-mod (tap-hold $tap-time $hold-time ; rmet)
+
+
+    ;; caps mod
+    escctrl (tap-hold 150 200 esc lctl)
+)
+
+(deflayer base
+    ;; caps mod
+    @escctrl caps
+
+    ;; page up & page down
+    _  _
+
+    ;; home row mods, h is transparent
+    @a-mod @s-mod @d-mod @f-mod @g-mod _ @j-mod @k-mod @l-mod @;-mod
+)
+
+(deflayer nav
+    ;; caps mod
+    XX XX
+
+    ;; page up & page down
+    home end
+
+    ;; home row mods
+    _ _ _ _ _ XX left down up right
+)
